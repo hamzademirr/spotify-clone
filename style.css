@@ -1,0 +1,121 @@
+.container {
+    display: flex;
+}
+
+.left-bar {
+    width: 300px;
+    background: var(--9-black, #000);
+}
+
+.left-bar img {
+    width: 20px;
+    height: auto;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.centered-content strong {
+    color: #ECEFF4;
+    font-family: Hind;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 20px;
+    margin-left: 10px;
+
+}
+
+.centered-content {
+    display: flex;
+    align-items: center;
+}
+
+.menu-icon {
+    width: 20px;
+    height: auto;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.menu-item {
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.menu-item strong {
+    color: var(--4-gray, #AAAEB5);
+    font-family: Hind;
+    font-size: 14px;
+    font-style: normal;
+}
+
+.menu-item label {
+    margin-top: 20px;
+    color: var(--1-white, #FFF);
+    font-family: Hind;
+    font-size: 12px;
+    font-style: normal;
+    line-height: normal;
+}
+
+.menu-item-highlight {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.menu-item-highlight strong {
+    color: var(--1-white, #FFF);
+    font-family: Hind;
+    font-size: 14px;
+    font-style: normal;
+    margin-left: 15px;
+}
+
+.highlight {
+    width: 5px;
+    height: 20px;
+    background: var(--core-green, #00C65E);
+}
+
+.add-icon {
+    margin-left: 200px;
+    padding-top: 20px;
+    width: 20px;
+    height: 20px;
+}
+
+.left-bar-footer {
+    display: flex;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #343538;
+}
+
+.left-bar-footer strong {
+    display: flex;
+    padding-left: 10px;
+    justify-content: center;
+    align-items: center;
+    color: #AAAEB5;
+}
+
+.icon-kebab{
+    margin-top: 30px;
+    margin-left: 120px;
+}
+
+.left-bar-footer img {
+    margin: 19px 0px 20px 21px;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+}
+
+.music-page {
+    flex-grow: 1;
+    background: #000;
+}
