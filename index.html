@@ -17,88 +17,55 @@
 </head>
 
 <body>
-
     <div class="container">
-        <div class="left-bar">
-            <nav>
-                <span class="centered-content">
+        <nav>
+            <div class="nav-header">
+                <a class="main-logo" href="#">
                     <img src="img/spotify-logo.png" alt="spotify logo">
-                    <strong>Spotify</strong>
-                </span>
-                <div class="menu-icon">
+                    <span>Spotify</span>
+                </a>
+
+                <div class="hamburger-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M19 18H1V16H19V18Z" fill="#AAAEB5" />
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M19 11H1V9H19V11Z" fill="#AAAEB5" />
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M19 4H1V2H19V4Z" fill="#AAAEB5" />
                     </svg>
                 </div>
-            </nav>
-            <article class="menu-item">
-                <strong>Browse</strong>
-            </article>
-            <article class="menu-item">
-                <strong>Radio</strong>
-            </article>
-            <article class="menu-item">
-                <label>Library</label>
-            </article>
-            <article class="menu-item">
-                <strong>Your daily mix</strong>
-            </article>
-            <article class="menu-item">
-                <strong>Recently played</strong>
-            </article>
-            <article class="menu-item">
-                <strong>Songs</strong>
-            </article>
-            <article class="menu-item-highlight">
-                <div class="highlight"></div>
-                <strong>Artists</strong>
-            </article>
-            <article class="menu-item">
-                <strong>Albums</strong>
-            </article>
-            <article class="menu-item">
-                <strong>More...</strong>
-            </article>
-            <article class="menu-item">
-                <label>Playlists</label>
-                <div class="add-icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                        <path d="M9.00006 11V17H11.0001V11H17V9H11.0001V3H9.00006V9H3V11H9.00006Z" fill="#AAAEB5" />
-                    </svg>
-                </div>
-            </article>
-            <article class="menu-item">
-                <strong>Liked from radio</strong>
-            </article>
-            <article class="menu-item">
-                <strong>Release radar</strong>
-            </article>
-            <article class="menu-item">
-                <strong>#CatchMyHeadBanging</strong>
-            </article>
-            <article class="menu-item">
-                <strong>#Christmas</strong>
-            </article>
-            <article class="menu-item">
-                <strong>Favorite</strong>
-            </article>
-            <article class="menu-item">
-                <strong>Ballads</strong>
-            </article>
-            <article class="menu-item">
-                <strong>Pop</strong>
-            </article>
-            <article class="menu-item">
-                <strong>#SpinMe</strong>
-            </article>
-            <article class="menu-item">
-                <strong>Menu Item</strong>
-            </article>
-            <article class="left-bar-footer">
+            </div>
+
+            <ul class="nav-body">
+                <li class="nav-body-item">Browse</li>
+                <li class="nav-body-item">Radio</li>
+                <li class="nav-body-item highlight-text"><span>Library</span></li>
+                <li class="nav-body-item">Your daily mix</li>
+                <li class="nav-body-item">Recently played</li>
+                <li class="nav-body-item">Songs</li>
+                <li class="nav-body-item active-item highlight-text">Artists</li>
+                <li class="nav-body-item">Albums</li>
+                <li class="nav-body-item">More...</li>
+                <li class="nav-body-item highlight-text icon-location">
+                    <span>Playlists</span>
+                    <div class="add-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M9.00006 11V17H11.0001V11H17V9H11.0001V3H9.00006V9H3V11H9.00006Z" fill="#AAAEB5" />
+                        </svg>
+                    </div>
+                </li>
+                <li class="nav-body-item">Liked from radio</li>
+                <li class="nav-body-item">Release radar</li>
+                <li class="nav-body-item">#CatchMyHeadBanging</li>
+                <li class="nav-body-item">#Christmas</li>
+                <li class="nav-body-item">Favorite</li>
+                <li class="nav-body-item">Ballads</li>
+                <li class="nav-body-item">Pop</li>
+                <li class="nav-body-item">#SpinMe</li>
+                <li class="nav-body-item">Menu Item</li>
+            </ul>
+
+            <div class="nav-footer">
                 <img src="img/pp.jfif" alt="profil pictures">
-                <strong>Isaac N.C.</strong>
+                <span>Isaac N.C.</span>
                 <div class="icon-kebab">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                         <path fill-rule="evenodd" clip-rule="evenodd"
@@ -106,14 +73,13 @@
                             fill="#AAAEB5" />
                     </svg>
                 </div>
-            </article>
-        </div>
+            </div>
+        </nav>
 
         <div class="music-page">
-            <p>Lorem.</p>
+
         </div>
     </div>
-
 </body>
 
 </html>

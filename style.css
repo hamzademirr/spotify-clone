@@ -1,118 +1,105 @@
+body {
+    font-family: Hind;
+    font-size: 14px;
+    font-style: normal;
+}
+
 .container {
     display: flex;
 }
 
-.left-bar {
+nav {
     width: 300px;
     background: var(--9-black, #000);
 }
 
-.left-bar img {
-    width: 20px;
-    height: auto;
-    margin-left: 20px;
-    margin-top: 20px;
-}
-
-.centered-content strong {
-    color: #ECEFF4;
-    font-family: Hind;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    margin-top: 20px;
-    margin-left: 10px;
-
-}
-
-.centered-content {
+.main-logo {
     display: flex;
     align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    text-decoration: none;
 }
 
-.menu-icon {
+.main-logo img {
     width: 20px;
     height: auto;
+}
+
+.main-logo span {
+    color: #ECEFF4;
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.hamburger-icon {
     margin-top: 40px;
     margin-left: 20px;
-    margin-bottom: 20px;
 }
 
-.menu-item {
-    padding: 10px 20px;
-    display: flex;
-    align-items: center;
-}
-
-.menu-item strong {
-    color: var(--4-gray, #AAAEB5);
-    font-family: Hind;
-    font-size: 14px;
-    font-style: normal;
-}
-
-.menu-item label {
+.nav-body {
+    list-style: none;
+    padding: 0px;
     margin-top: 20px;
-    color: var(--1-white, #FFF);
-    font-family: Hind;
-    font-size: 12px;
-    font-style: normal;
-    line-height: normal;
 }
 
-.menu-item-highlight {
-    margin-top: 10px;
-    display: flex;
+.nav-body-item {
+    color: var(--4-gray, #AAAEB5);
+    font-weight: 600;
+    line-height: 20px;
+    padding: 10px 20px;
     align-items: center;
 }
 
-.menu-item-highlight strong {
-    color: var(--1-white, #FFF);
-    font-family: Hind;
-    font-size: 14px;
-    font-style: normal;
-    margin-left: 15px;
+.active-item {
+    border-left: 5px solid #00C65E;
+    padding: 0px 20px 0px 15px;
+    margin: 10px 0px;
 }
 
-.highlight {
-    width: 5px;
-    height: 20px;
-    background: var(--core-green, #00C65E);
+.highlight-text {
+    color: var(--1-white, #FFF);
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.nav-body-item span {
+    margin-top: 10px;
+    width: 240px;
+}
+
+.icon-location {
+    display: flex;
+    align-items: center;
 }
 
 .add-icon {
-    margin-left: 200px;
-    padding-top: 20px;
     width: 20px;
     height: 20px;
+    margin-top: 10px;
+    margin-left: 2px;
 }
 
-.left-bar-footer {
+.nav-footer {
     display: flex;
-    border-top-width: 1px;
-    border-top-style: solid;
-    border-top-color: #343538;
-}
-
-.left-bar-footer strong {
-    display: flex;
-    padding-left: 10px;
-    justify-content: center;
     align-items: center;
-    color: #AAAEB5;
+    border-top: 1px solid #343538;
 }
 
-.icon-kebab{
-    margin-top: 30px;
-    margin-left: 120px;
-}
-
-.left-bar-footer img {
-    margin: 19px 0px 20px 21px;
+.nav-footer img {
     width: 40px;
     height: 40px;
-    border-radius: 40px;
+    border-radius: 50%;
+    margin: 20px 0px 20px 20px;
+}
+
+.nav-footer span {
+    color: var(--4-gray, #AAAEB5);
+    font-weight: 600;
+    line-height: 20px;
+    padding: 10px 0px 10px 20px;
+    width: 180px;
 }
 
 .music-page {
